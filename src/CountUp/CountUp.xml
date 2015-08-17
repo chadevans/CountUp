@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="CountUp.widget.CountUp" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>CountUp</name>
+  <description>Provides an animation to a display of numerical data.</description>
+
+  <icon></icon>
+
+  <properties>
+        <property key="displayAttribute" type="attribute">
+            <caption>Display Attribute</caption>
+            <category>Appearance</category>
+            <description>The value to display</description>
+            <attributeTypes>
+                <attributeType name="Long"/>
+                <attributeType name="Integer"/>
+                <attributeType name="Float"/>
+                <attributeType name="Decimal"/>
+                <attributeType name="Currency"/>
+            </attributeTypes>
+        </property>
+        <property key="useGrouping" type="boolean" required="true" defaultValue="true">
+            <caption>Use Grouping</caption>
+            <category>Appearance</category>
+            <description>Use grouping when displaying the number.</description>
+        </property>
+        <property key="useEasing" type="boolean" required="true" defaultValue="true">
+            <caption>Use Easing</caption>
+            <category>Appearance</category>
+            <description>Use easing when displaying the number, for example using easeOutExpo.</description>
+        </property>
+        <property key="decimals" type="integer" required="true" defaultValue="0">
+            <caption>Decimal places</caption>
+            <category>Appearance</category>
+            <description>Number of decimal places to display.</description>
+        </property>
+        <property key="duration" type="integer" required="true" defaultValue="2">
+            <caption>Duration (ss)</caption>
+            <category>Appearance</category>
+            <description>Duration of animation, in seconds.</description>
+        </property>
+	</properties>
+</widget>
+
