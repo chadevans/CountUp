@@ -1,3 +1,5 @@
+// countUp.js v 1.5.3
+// https://github.com/inorganik/countUp.js
 
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {

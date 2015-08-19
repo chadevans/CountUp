@@ -3,7 +3,7 @@
   <name>CountUp</name>
   <description>Provides an animation to a display of numerical data.</description>
 
-  <icon></icon>
+  <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAb1BMVEVGWv9Yaf9peP94hf+FkP+Gkf+Pmf+Unf+Zof+gqP+iqv+or/+rsv+ss/+zuf+3vP+4vv+7wf+9w//Axf/DyP/EyP/Fyv/M0P/N0f/R1P/S1f/b3v/i5P/j5f/r7f/s7f/x8v/z9P/4+f/7+/////8d125QAAAAlklEQVR42p3R2w7CIBBF0UOdVkFFlNZLab3O/3+jpT4oMo2J+3FWAhMAT/QDbm0vwbn1XoKH9xPQ9nsJYgMEQ2QFOFHM5rAkww1VOWyawEGA8XJLti4A/Q090Q6xeQrXig4aM3ZQyVvdF7Tl2BpFAoZWrzFU9wkNjYUBcJSA2b2PSuuASwYlymyrsRoxnQM7BbjJP/8TngRiQzH+p9e6AAAAAElFTkSuQmCC</icon>
 
   <properties>
         <property key="displayAttribute" type="attribute">
