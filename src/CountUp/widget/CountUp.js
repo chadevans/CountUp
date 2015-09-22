@@ -41,6 +41,8 @@ define([
         useEasing: true,
         decimals: 0,
         duration: 2.0,
+        prefix: "",
+        suffix: "",
 
         // Internal variables. Non-primitives created in the prototype are shared between all widget instances.
         _handles: null,
@@ -96,7 +98,9 @@ define([
                 var demo,
                     options = {
                         useGrouping: this.useGrouping,
-                        useEasing: this.useEasing
+                        useEasing: this.useEasing,
+                        prefix: this.prefix,
+                        suffix: this.suffix
                     },
                     start = this._lastValue,
                     end = this._contextObj.get(this.displayAttribute);

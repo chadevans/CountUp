@@ -38,6 +38,16 @@
             <category>Appearance</category>
             <description>Duration of animation, in seconds.</description>
         </property>
+        <property key="prefix" type="string" required="false">
+            <caption>Prefix</caption>
+            <category>Appearance</category>
+            <description>Text added before the numbers.</description>
+        </property>
+        <property key="suffix" type="string" required="false">
+            <caption>Suffix</caption>
+            <category>Appearance</category>
+            <description>Text added after the numbers.</description>
+        </property>
 	</properties>
 </widget>
 
